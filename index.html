@@ -108,7 +108,7 @@
 		});
 
 		function changeFont(fontNumber) {
-			output.className = `fontStyleTag font-style-${fontNumber} text-center break-words text-indigo-900 min-h-[60px] flex items-center justify-center`;
+			output.className = `fontStyleTag text-4xl font-style-${fontNumber} text-center break-words text-indigo-900 min-h-[60px] flex items-center justify-center`;
 			document.querySelectorAll('.font-preview').forEach(preview => {
 				preview.classList.remove('active');
 				if (preview.dataset.font === fontNumber.toString()) {
